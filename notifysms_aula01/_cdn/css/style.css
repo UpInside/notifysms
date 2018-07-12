@@ -1,0 +1,77 @@
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0;
+    font-size: 1em;
+    color: #333333;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    background-color: #00B494;
+    margin-top: 4px;
+    padding: 14px;
+    font-size: 0.9em;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #008068;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 3px solid #008068;
+}
+
+button:hover {
+    background-color: #008068;
+    cursor: pointer;
+}
+
+.container, .validate_code {
+    max-width: 500px;
+    width: 95%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #F4F4F4;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.container .container_subject {
+    margin: 20px 0;
+    font-size: 1.3em;
+    color: #333333;
+    text-align: center;
+}
+
+.validate_code .validate_code_subject {
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: #333;
+    text-align: center;
+}
+
+.validate_code .validate_return {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+.validate_code .validate_return p {
+    color: #333333;
+    font-size: 0.9em;
+    padding: 14px;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 0px 3px #EBEBEB;
+}
